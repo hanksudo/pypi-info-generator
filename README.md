@@ -14,20 +14,28 @@ Script to auto generate Python package info on requirements.txt
     
     sudo apt-get install jq
 
+## Installation
+
+```bash
+curl -L https://raw.githubusercontent.com/hanksudo/pypi-info-generator/master/pypi-info.sh -o ~/bin/pypi-info && chmod +x ~/bin/pypi-info
+```
+
 ## Usage
 
-    ./pipy-info.sh requirements.txt
+```bash
+pipy-info requirements.txt
+```
 
-## Result
+**input file: requirements.txt**
 
-**requirements.txt**
 ```
 Pygments==2.0.2
 simplejson==3.3.1
 oauth2client
 ```
 
-**new-requirements.txt**
+**output file: new-requirements.txt**
+
 ```
 # Pygments is a syntax highlighting package written in Python.
 # http://pygments.org/
