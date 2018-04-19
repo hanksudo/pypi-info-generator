@@ -10,15 +10,3 @@ simplejson==3.3.1
 # http://github.com/google/oauth2client/
 oauth2client
 
-# Pygments is a syntax highlighting package written in Python.
-# http://pygments.org/
-Pygments==2.0.2
-
-# Simple, fast, extensible JSON encoder/decoder for Python
-# http://github.com/simplejson/simplejson
-simplejson==3.3.1
-
-# OAuth 2.0 client library
-# http://github.com/google/oauth2client/
-oauth2client
-
