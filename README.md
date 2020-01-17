@@ -23,7 +23,7 @@ curl -L https://raw.githubusercontent.com/hanksudo/pypi-info-generator/master/py
 ## Usage
 
 ```bash
-pipy-info requirements.txt
+pypi-info requirements.txt
 ```
 
 **input file: requirements.txt**
