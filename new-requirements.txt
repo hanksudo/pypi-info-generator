@@ -1,6 +1,6 @@
 # Pygments is a syntax highlighting package written in Python.
 # http://pygments.org/
-Pygments==2.0.2
+Pygments==2.7.4
 
 # Simple, fast, extensible JSON encoder/decoder for Python
 # http://github.com/simplejson/simplejson
